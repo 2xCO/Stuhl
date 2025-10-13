@@ -1,15 +1,12 @@
-       @font-face {
-          font-family: Poppins; /* set name */
-          src: href="/./assets/font/Poppins-Medium.otf"; /* url of the font */
-        }
-
-        h1 {
-          font-family: Poppins; /* use font */
+        @font-face {
+          font-family: Poppins;
+          src: url("./assets/font/Poppins-Medium.otf");
         }
       
       body {
         background-color: rgb(255, 255, 255);
-        color: white;
+        color: rgb(0, 0, 0);
+        font-family: Poppins, sans-serif;
         display: flex;
         flex-direction: column;
         align-items: center;
